@@ -70,7 +70,7 @@
             
             <!-- Custom text clock. -->
             <include layout="@layout/text_clock_view" />
-
+            
             <com.android.keyguard.clocks.CustomAnalogClock
                 android:id="@+id/custom_clock_view"
                 android:layout_width="wrap_content"
@@ -78,13 +78,12 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_centerHorizontal="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="@dimen/custom_clock_top_margin"
-                app:custom_dial="@drawable/custom_clock_dial"
-                app:custom_dial_dark="@drawable/custom_clock_dial_dark"
-                app:custom_dial_buttons="@drawable/custom_dial_buttons"
-                app:custom_hand_hour="@drawable/custom_clock_hand_hour"
-                app:custom_hand_minute="@drawable/custom_clock_hand_minute"
-                app:custom_clock_dial_ambient="@drawable/custom_clock_dial_ambient"/>
+                analog:custom_dial="@drawable/custom_clock_dial"
+                analog:custom_dial_dark="@drawable/custom_clock_dial_dark"
+                analog:custom_dial_buttons="@drawable/custom_dial_buttons"
+                analog:custom_hand_hour="@drawable/custom_clock_hand_hour"
+                analog:custom_hand_minute="@drawable/custom_clock_hand_minute"
+                analog:custom_clock_dial_ambient="@drawable/custom_clock_dial_ambient"/>
             <com.android.keyguard.clocks.CustomAnalogClock
                 android:id="@+id/du_clock_view"
                 android:layout_width="wrap_content"
