@@ -194,7 +194,6 @@ public class KeyguardStatusView extends GridLayout implements
             mClockView.setAccessibilityDelegate(new KeyguardClockAccessibilityDelegate(mContext));
         }
         mCustomClockView = findViewById(R.id.custom_clock_view);
-        mDuClockView = findViewById(R.id.du_clock_view);
         mTextClock = findViewById(R.id.custom_textclock_view);
         mOwnerInfo = findViewById(R.id.owner_info);
         mKeyguardSlice = findViewById(R.id.keyguard_status_area);
